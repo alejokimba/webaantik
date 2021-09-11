@@ -1,0 +1,25 @@
+html{
+    height:100%;
+}
+body {
+    margin:0;
+    padding:0;
+    
+    background-image: url('../Imagenes/fondo3.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.rfc-status{
+    position:relative;
+    margin-top: 20%;
+ 
+}
+.status{
+    width: 100%;
+    height: max-content;
+}
+.aantik-img{
+    position: relative;
+margin-top: 25%;
+}

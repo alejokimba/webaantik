@@ -1,0 +1,313 @@
+@font-face {
+    font-family: caviardreams;
+    src: url('/webaantik/Font/CaviarDreams.ttf');
+}
+body{
+padding:0;
+margin:0;
+}
+.navbar-nav,
+.ml-auto {
+flex:0.6;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
+}
+.nav-item{
+    margin-top: 20px;
+    width:130px;
+    
+}
+.nav-item a{
+    display:inline;
+    
+}
+.nav-link{
+color: #000;
+padding-top: 25px;
+font-family: caviardreams !important;
+}
+#link-agendar{
+    color:#002959;
+    font-size: 1.6rem;
+    font-family: Bahnschrift;
+    border-radius: 5px;
+    border: rgb(226, 230, 230);
+    text-decoration: none;
+    background-color: rgb(228, 230, 230);
+    padding:14px; 
+}
+#link-agendar:hover{
+    background-color: #00CFB4;
+    color:white;
+}
+#agendar{
+    font-size: 1.7rem;
+    color:#002959;
+}
+
+.salto{
+    margin-bottom: 50px;
+}
+.texto-servicios{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 65%;
+    height: 10vh;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #002959;
+    color: white;
+    padding:40px 0 ;
+    font-family:Bahnschrift;
+}
+#texto-servicios-empresariales{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 65%;
+    height: 10vh;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #002959;
+    color: white;
+    padding:30px 0 ;
+    font-family:Bahnschrift;
+}
+.pie{
+    width: 100%;
+    display:block;
+    background-color:#eeebeb;
+    align-items: center;
+    padding:0;
+    color: #b3b3b3;
+}
+.pie h2{
+    text-align: center;
+}
+
+.seccion{
+margin-top: 145px;
+color:#024591f8;
+font-family: Bahnschrift;
+font-weight: bolder;
+text-align: center;
+}
+.titulo-texto{
+    margin-top: 30px;
+}
+
+.titulo{
+    font-size: 40px;
+    margin:40px 0 50px 0;
+    color: #002959;
+    border-top: 4px solid #00CFB4;
+    font-family: caviardeams;
+
+}
+
+.contenedor{
+    position: relative;
+    text-align: center;
+    
+}
+.container-fluid{
+    align-items: center;
+   /*  margin-left:300px; */
+}
+
+#logo{
+    margin: 0 10px 0 10px;
+}
+.titulo{
+    color:#002959;
+    font-family: caviardreams;
+    font-size: 3rem;
+    margin: 35px 0 35px 0;
+    font-weight:bolder;
+}
+p{
+    font-family: Bahnschrift;
+}
+.quienes-somos-texto{
+    margin: 30px 0 30px 0;
+    padding:15px 0 15px 0;
+    font-size:24px;
+}
+
+#redessociales{
+height:100%;
+display:flex;
+justify-content:space-between;
+margin-left: 20px;
+padding-bottom: 20px;
+
+}
+#redessociales div{
+    margin:0 5px;
+}
+
+footer{
+    background-color:#eeebeb;
+
+}
+footer img{
+    width: 100px;
+    margin-left: 47%;
+}
+footer h2{
+    text-align: center;
+    color:#b3b3b3;
+}
+#primerlogo{
+    display:none;
+}
+.contenedor-redes-sociales{
+    display:none;
+}
+
+.finanzasempresariales{
+  position: relative;
+  text-align: center;
+}
+.item{
+    margin: 0 50px 18px 30px;
+    padding:0 50px 25px 35px;
+    font-size: 1.5rem;
+    color:#6d6c6c;
+    
+}
+.item > h3{
+    text-align:center;
+}
+#clientes{
+    align-items: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #002959;
+}
+.carousel-control-prev{
+justify-content: left;
+} 
+.carousel-control-next{
+justify-content:flex-end;
+}
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #002959;
+  }
+
+
+.quienes-somos{
+    margin: 0 50px 0 50px;
+    padding:0 30px 0 30px;
+    border-top: 3px solid #00CFB4;
+    text-align: center;
+}
+
+.nuestros-servicios{
+   
+    margin: 50px 50px 80px 50px;
+    padding:0 30px 0 30px;
+    border-top: 3px solid #00CFB4;
+    text-align: center;
+}
+
+.nuestros-clientes{
+    margin: 0 50px 0 50px;
+    padding:0 30px 0 30px;
+    border-top: 3px solid #00CFB4;
+    text-align: center;
+}
+#agendarsesion{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#agendarsesion button{
+    background-color:white;
+    font-size: 1.8rem;
+    border-radius: 1px;
+    color:#002959;
+    border: 3px solid;
+    border-color: #002959;
+    padding:5px;
+}
+#agendarsesion button:hover{
+    background-color:#00CFB4;
+    color:white !important;
+} 
+
+#redessociales div{
+    margin:0 10px;
+    font-size: 30px;
+}
+#modal-registrar{
+    display: none;
+    z-index: 20;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    position: absolute;
+    font-family: sans-serif;}
+    #boton-registrar{
+        margin:20px 0 0 20px ;
+    }
+#registro{
+ background-color:#00CFB4;
+}
+#login{
+ background-color:#002959;
+ padding-left: 15px;
+ margin-left: 15px;
+}
+.botones-opciones-registro{
+    margin: 5px 0 10px 0;
+}
+.btn-solicitar button{
+    font-family:Bahnschrift;
+    border:none;
+    width:30%;
+    
+    background-color:rgb(170, 169, 169); 
+    align-items: center; 
+    
+    border-radius: 15px;
+    font-size: 1.3rem;
+    color: #002959;
+    font-weight: bolder;
+}
+#regsesion{
+    background-color:#002959;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 7px
+}
+#regsesion:hover{
+    background-color:steelblue;
+   
+    
+}
+

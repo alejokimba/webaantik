@@ -1,0 +1,278 @@
+@font-face {
+    font-family: caviardreams;
+    src: url('/Font/CaviarDreams.ttf');
+}
+body{
+    padding:0;
+    margin:0;
+}
+.navbar-nav,
+.ml-auto {
+flex:0.6;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
+}
+.nav-item{
+    padding-top: 30px;
+    font-family: caviardreams;
+    font-size: 1rem;
+    
+}
+.nav-item a{
+  width: 100%;
+  color: black;
+  font-family: caviardreams;
+  align-items: center;
+  text-align: center;
+}
+ 
+.menu{
+    display:flex;
+    height:100%;
+    width:100vw;
+    justify-content:space-between;
+    align-items:center;
+    /* position: fixed; */
+}
+#logo{
+    display:flex;
+    width:45px;
+    align-items:stretch;
+    margin-left: 10px;
+}
+.menu-items{
+    display:flex;
+    list-style:none;
+    margin: auto;
+    padding-top: 20px;
+}
+.menu-items li{
+    margin:0 10px;
+}
+#redessociales{
+height:1vh;
+display:flex;
+justify-content:space-between;
+margin:0 0 45px 20px;
+
+}
+#redessociales div{
+    margin:0 18px;
+    font-size: 40px;
+}
+.menu-items li a{
+padding:7px;
+text-decoration: none;
+font-size: 20px;
+color:black;
+}
+.menu-items li:hover, li.active{
+    background-color: rgb(224, 224, 224);
+    transition:.4s;
+}
+h1{
+    font-family: caviardreams;
+}
+.btn_menu{
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+ul.show{
+    top:70px;
+}
+#primerlogo{
+    display:none;
+}
+.contenedor-redes-sociales{
+    display:none;
+}
+
+header{
+    margin-bottom: 50px;
+}
+
+.no-padding {
+    background-image:url('fondo1.png');
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:top;
+    padding-left: 0;
+    padding-right: 0;
+    height:100vh;
+    margin-top:75px;
+  }
+  .col-2 img{
+      margin-top: 20px;
+      padding-left:40px;
+  }
+ 
+  .texto{
+    width: 30%;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    position: absolute;
+    font-size: 1.8rem;
+  }
+  #ayudar{
+    margin-top:15px;
+    font-size: 2rem;
+    font-weight:normal;
+  }
+.texto h1{
+font-family:caviardeams;
+font-weight: bold;
+}
+.col{
+    color:rgb(95, 93, 93);
+    font-weight:bold;
+}
+.col img{
+    width: 100%;
+}
+
+.seccion{
+    margin:20px 40px 10px 40px;
+    border-top: 3px solid #00CFB4;
+    color: #002959;
+    font-size:45px;
+    font-family: Bahnschrift;
+    text-align:center;
+}
+.seccion img{
+    width: 50%;
+}
+#equipo{
+    position: relative;
+    
+}
+#equipo2{
+    margin-top: 200px;
+}
+.quienessomos{
+    margin-top:100px;
+}
+.flip-card{
+background-color:transparent;
+width: 100%;
+height: 35vh;
+transform-style:flat;
+transition: all 0.5s ease;
+/* border: 1px solid #f1f1f1; */
+align-items: center;
+text-align: center;
+}
+.flip-card-inner{
+position: relative;
+
+height: 40vh;
+transition: transform 0.6s;
+transform-style: preserve-3d;
+/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+
+}
+.flip-card-front{
+position: absolute;
+width: 100%;
+height: 30vh;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+font-size: 1.5rem;
+}
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+
+}
+
+  
+.flip-card-back{
+position: absolute;
+width: 80%;
+height: 27vh;
+color:white;
+transform: rotateY(180deg);
+font-size: 1.3rem;
+text-align: center;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+background-image: url("../Imagenes/fondo1.png");
+background-size:100%;
+background-repeat: no-repeat;
+}
+
+.titulo{
+    margin-bottom: 50px;
+}
+.pie{
+    width: 100%;
+    display:block;
+    background-color:#eeebeb;
+    align-items: center;
+    padding:0;
+    color: #b3b3b3;
+}
+.pie h2{
+    text-align: center;
+}
+.pie img{
+    margin-left: 47%;
+    width: 100px;
+    
+}
+@media screen and (max-width:858px){
+    .menu{
+        height: 65px;
+        justify-content: right;       
+    }
+    .btn_menu{
+        display: inline-flex;
+        margin: auto;
+    }
+    .menu-items{
+        position: fixed;
+        width:50vw;
+        height:calc(100%-65px);
+        background:#002959;
+        top:-100vh;
+        text-align:center;
+        transition:all .4s;
+        flex-direction: column;
+        padding-top: 0;
+        z-index: 1;
+    }
+    #logo{
+        display:none;
+    }
+    #primerlogo{
+        display:block;
+        margin: auto;
+        align-items:center;
+        
+    }
+    #redessociales{
+        display:none;
+    }
+    .menu-items li{
+        margin:30px 0 0 0;
+        line-height: 30px;
+    }
+    .menu-items li:hover{
+        background: gray;
+    }
+    
+    .menu-items li a{
+        font-size:20px;
+        color: white;
+        font-weight: normal;
+    }
+    .menu-items li a:hover{
+        background: gray;
+    }
+    .logo{
+        width: 50px;
+        font-size: 25px;
+        padding-left: 35px;
+    }
+}

@@ -1,0 +1,519 @@
+@font-face {
+    font-family: caviardreams;
+    src: url('../Font/CaviarDreams.ttf');
+}
+body{
+padding:0;
+margin:0;
+}
+.navbar-nav,
+.ml-auto {
+flex:0.6;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
+}
+.nav-item{
+    margin-top: 20px;
+    width:130px;
+    
+}
+.nav-item a{
+    display:inline;
+    text-align: justify;
+    
+}
+
+.nav-link{
+color: #000;
+padding-top: 25px;
+font-family: caviardreams !important;
+font-size: 1rem;
+}
+
+
+.container-fluid{
+    align-items: center;
+   /*  margin-left:300px; */
+}
+.pie{
+    background-image:url("Imagenes\Banner-servicios.png");
+    background-size: cover;
+    
+}
+
+#logo{
+    margin: 0 10px 0 10px;
+}
+.titulo{
+    margin-bottom: 50px;
+}
+p{
+    font-family: Bahnschrift;
+}
+.textcenter img{
+    width: 100%;
+}
+.textcenter{
+    margin-top:50px;
+    max-width: 100%; 
+    position: relative;
+}
+.textcenter figcaption{
+    position: absolute;
+    top:15%;
+    left:18%;
+    width: 30%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: caviardreams;
+}
+#icono-blanco{
+    position: absolute;
+    left:-60%;
+    width: 30%;
+    top:-5%;
+}
+figcaption p{
+    font-family: caviardreams;
+}
+.quienes-somos-texto{
+    margin: 30px 0 30px 0;
+    padding:15px 0 15px 0;
+    font-size:24px;
+}
+
+#redessociales{
+height:100%;
+display:flex;
+justify-content:space-between;
+margin-left: 20px;
+padding-bottom: 20px;
+
+}
+#redessociales div{
+    margin:0 5px;
+}
+
+footer{
+    background-color:#eeebeb;
+
+}
+footer img{
+    width: 100px;
+    margin-left: 47%;
+}
+footer h2{
+    text-align: center;
+    color:#b3b3b3;
+}
+#primerlogo{
+    display:none;
+}
+.contenedor-redes-sociales{
+    display:none;
+}
+
+.finanzasempresariales{
+  position: relative;
+  text-align: center;
+}
+.item{
+    margin: 0 50px 18px 30px;
+    padding:0 50px 25px 35px;
+    font-size: 1.5rem;
+    color:#6d6c6c;
+    
+}
+.item > h3{
+    text-align:center;
+}
+
+
+
+
+
+#redessociales div{
+    margin:0 10px;
+    font-size: 30px;
+}
+#modal-registrar{
+    display: none;
+    z-index: 20;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    position: absolute;
+    font-family: sans-serif;}
+#boton-registrar{
+    margin:20px 0 0 20px ;
+}
+#registro{
+ background-color:#00CFB4;
+}
+#login{
+ background-color:#002959;
+ padding-left: 15px;
+ margin-left: 15px;
+}
+.botones-opciones-registro{
+    margin: 5px 0 10px 0;
+}
+.btn-solicitar button{
+    font-family:Bahnschrift;
+    border:none;
+    width:30%;
+    
+    background-color:rgb(170, 169, 169); 
+    align-items: center; 
+    
+    border-radius: 15px;
+    font-size: 1.3rem;
+    color: #002959;
+    font-weight: bolder;
+}
+.no-padding {
+    background-image:url('fondo1.png');
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:top;
+    padding-left: 0;
+    padding-right: 0;
+    height:100vh;
+    margin-top:75px;
+  }
+  .col-2 img{
+      margin-top: 20px;
+      padding-left:40px;
+  }
+ 
+  .texto{
+    width:30%;
+    color: white;
+    text-align: center;
+    
+    position: relative;
+    font-size: 1.5rem;
+    
+    margin-top: 15px;
+  }
+  #ayudar{
+    margin-top:15px;
+    font-size: 2.5rem;
+    font-weight:bolder;
+  }
+.texto h1{
+font-family:caviardeams;
+font-weight: bold;
+}
+.col{
+    color:rgb(95, 93, 93);
+    font-weight:bold;
+}
+.col img{
+    width: 100%;
+}
+
+.seccion{
+    margin:20px 40px 10px 40px;
+    border-top: 3px solid #00CFB4;
+    color: #002959;
+    font-size:25px;
+    font-family: Bahnschrift;
+    text-align:center;
+}
+.seccion img{
+    width: 50%;
+}
+#equipo{
+    position: relative;
+    
+}
+#equipo1{
+    margin-top: 200px;
+}
+
+
+
+#zoom{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.valores{
+    text-align: center;
+    color:#002959;
+    margin:20px 0 20px 0;
+    font-size: 2rem;
+}
+.flip-card{
+    background-color:transparent;
+    width:auto;
+    height:40vh;
+    transform-style:flat;
+    transition: all 0.5s ease;
+    
+}
+.flip-card2{
+    background-color:transparent;
+    width:auto;
+    height:65vh;
+    transform-style:flat;
+    transition: all 0.5s ease;
+    
+}
+.flip-card-inner{
+position: relative;
+width:auto;
+transition: transform 0.6s;
+transform-style: preserve-3d;
+-webkit-animation: giro 1s 1;
+animation: giro 1s 1;
+}
+.flip-card-inner2{
+    position: relative;
+    width:auto;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+    }
+.flip-card-front{
+position: absolute;
+width:70%;
+margin-left:10%;
+padding: 15px;
+align-items: center;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+font-size: 1.4rem;
+font-weight: bold;
+font-size:Bahnschrift;
+color:#002959;
+text-align: center;
+}
+.flip-card-front2{
+    position: absolute;
+    width:70%;
+    margin-left: 18%;
+    align-items: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-size:Bahnschrift;
+    color:#002959;
+    text-align: center;
+    }
+    .descripcion-socios{
+    padding-left: auto;
+    padding-right: auto;
+    font-size: 1.5rem;
+    text-align:justify;
+    }
+.nombre{
+    padding-top: 15px;
+}  
+#pau{
+    text-align: justify;
+}
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+
+}
+.flip-card2:hover .flip-card-inner2 {
+    transform: rotateY(180deg);
+    
+    }
+.flip-card-back{
+position: absolute;
+width: 100%;
+height: 40vh;
+color:white;
+transform: rotateY(180deg);
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+border-radius: 5px;
+background-size:100%;
+background-repeat: no-repeat;
+padding: 20px;
+}
+.flip-card-back2{
+    position: absolute;
+    width:70%;
+    height:65vh;
+    margin-left: 18%;
+    color:white;
+    transform: rotateY(180deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-image: url('../Imagenes/fondo2.png');
+    background-size:100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 7px;
+}
+.socios-card-back{
+    position: absolute;
+    width:70%;
+    height:55vh;
+    margin-left: 18%;
+    color:white;
+    transform: rotateY(180deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-image: url('../Imagenes/fondo2.png');
+    background-size:100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.descripcion{
+padding-left: auto;
+padding-right: auto;
+font-size: 1.1rem;
+text-align:justify;
+}
+#mision{
+    background-image: url("../Imagenes/filosofia3.png");
+    
+}
+#vision{
+    background-image: url("../Imagenes/filosofia1.png");
+}
+#valor{
+    background-image: url("../Imagenes/filosofia2.png");
+}
+.filosofia-texto{
+    padding: 5% 10px 0 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+
+.titulo{
+    border-top: 3px solid #00CFB4;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    color:#002959;
+    font-size: 1.7rem;
+    font-family:caviardeams;
+}
+.integrantes{
+
+    width: 90%;
+    margin-right:auto;
+    margin-left: auto;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 60px;
+  width: 60px;
+  outline: black;
+  background-size: 60%, 60%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 40px;
+  color: #002959;
+}
+.carousel-control-prev{
+justify-content: left;
+} 
+.carousel-control-next{
+justify-content:flex-end;
+}
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 40px;
+    color: #002959;
+  }
+
+.pie{
+    width: 100%;
+    display:block;
+    background-color:#eeebeb;
+    align-items: center;
+    padding:0;
+    color: #b3b3b3;
+}
+.pie h2{
+    text-align: center;
+}
+.pie img{
+    margin-left: 47%;
+    width: 100px;
+    
+}
+/* #cerrar-sesion{
+    width: 15%;
+    margin-top: 10px;
+    text-align: center;
+}
+#cerrar-sesion a{
+ text-decoration: none;
+ 
+ color:white;
+} */
+  
+#regsesion{
+    background-color:#002959;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 7px
+}
+
+.nosotros{
+    margin-bottom: 50px;
+}
+@media screen and (max-width:780px){
+    .descripcion{
+        font-size: .64rem;
+    }.descripcion-socios{
+        font-size: 1.2rem;
+    }
+    .bg-image{
+        background-size: 100%;
+        
+    }
+}
+@media screen and (max-width:375px){
+    .descripcion{
+        font-size:.61rem;
+    }.descripcion-socios{
+        font-size: .8rem;
+    }
+    .flip-card-back2{
+        width: 100%;
+        height: 50vh;
+        background-size:100%;
+        margin:0 !important;
+    }
+}
+@media(max-width:1024px){
+    .card .back{
+        font-size:.55rem;
+    }
+}
+@media screen and(max-width:768px){
+    .card .back{
+        font-size:.4rem;
+    }
+}
+@media screen and(max-width:650px){
+    .card .back{
+        font-size:.2rem;
+    }
+}

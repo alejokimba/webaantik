@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatus</title>
+    <link rel="stylesheet" href="css/status.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container status">
+        <div class="row">
+            <div class="col" style="text-align: center; color: white; margin-top: 50px;">
+                <h1>Checar Estatus</h1>
+            </div>
+        </div>
+        <div class=" d-flex justify-content-center">
+            <form action="scripts\status.php" method="POST" style="display: block;">
+                <div class="container rfc-status">
+                    <div class="row">
+                        <div class="col-8">
+                            
+                            <input type="text" name="rfc" class="form-control" placeholder="rfc">
+                        </div>
+                        <div class="col-4">
+                            <input type="submit" class="btn btn-primary" name="submit" value="Enviar">
+                        </div>
+                    </div>
+                </div>  
+            </form>
+        </div>
+        <div class="d-flex justify-content-center aantik-img">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" src="Imagenes/simboloaantik.png" alt="" width="50%">
+            </div>
+        </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script> 
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,358 @@
+@font-face {
+    font-family: caviardreams;
+    src: url('../Font/CaviarDreams.ttf');
+}
+body{
+padding:0;
+margin:0;
+}
+.navbar-nav,
+.ml-auto {
+flex:0.6;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
+}
+.nav-item{
+    margin-top: 20px;
+    width:130px;
+    
+}
+.nav-item a{
+    display:inline;
+    text-align: justify;
+    
+}
+.nav-link{
+    color: #000;
+    padding-top: 25px;
+    font-family: caviardreams !important;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    text-align: justify;
+    }
+    
+#logo{
+    margin:0 20px 0 20px;
+}
+
+.titulo{
+    color:#002959;
+    font-family:Bahnschrift;
+    font-size: 3rem;
+    margin: 35px 0 35px 0;
+    font-weight:bolder;
+}
+p{
+    font-family: Bahnschrift;
+}
+#redessociales{
+height:100%;
+display:flex;
+justify-content:space-between;
+margin-left: 20px;
+padding-bottom: 20px;
+}
+#redessociales div{
+    margin:0 5px;
+}
+#primerlogo{
+    display:none;
+}
+.contenedor-redes-sociales{
+    display:none;
+}
+#redessociales div{
+    margin:0 10px;
+    font-size: 30px;
+}
+#modal-registrar{
+    display: none;
+    z-index: 20;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    position: absolute;
+    font-family: sans-serif;}
+#boton-registrar{
+    margin:20px 0 0 20px ;
+}
+#registro{
+ background-color:#00CFB4;
+}
+#login{
+ background-color:#002959;
+ padding-left: 15px;
+ margin-left: 15px;
+}
+.botones-opciones-registro{
+    margin: 5px 0 10px 0;
+}
+/* .servicio{
+    margin-top:;
+} */
+#regsesion{
+    background-color:#002959;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 7px
+}
+#regsesion:hover{
+    background-color:steelblue;
+   
+    
+}
+.contenido{
+    margin: auto;
+    margin-top:100px;
+    
+}
+.descripcion{
+    width: 70%;
+    
+}
+.imagen-cfo img{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+} 
+.descripcion-servicio{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding:20px 0 20px 0;
+    color: #002959;
+    font-family: Bahnschrift;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+#titulo{
+    
+    font-family: Bahnschrift;
+    color:#002959;
+    font-size: 3rem;
+    text-align: center;
+}
+p{
+    width:520px;
+    text-align: center;
+    color:#002959;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.beneficio{
+    width: 70%;
+    height:auto;
+    background-color: rgb(241, 239, 239);
+}
+.subtitulo{
+    text-align: center;
+    color: #002959;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding:7px 0 7px 0;
+}
+.subtitulo-texto{
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    color: #002959;
+    font-family:Bahnschrift;
+    font-size: 1.2rem;
+}
+ul{
+    list-style-type: none;
+   text-align: left;
+   padding: 0 !important;
+}
+.precio{
+    padding-top:30px ;
+    margin:auto;
+    text-align: center;
+    color: #002959;
+    font-family:Bahnschrift;
+    font-size: 3rem;  
+    font-weight: lighter;
+
+}
+
+.boton{
+    margin-top: 20px;
+    width: 180px;
+    margin-bottom: 20px;
+    padding:0 5px 0 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: #7fd3c8;
+    color:#002959;
+    font-size:1.8rem;
+    font-weight: bolder;
+}
+.boton:hover{
+    cursor: pointer;
+    background-color:#00CFB4 ;
+
+}
+.precio img{
+    width: 4%;
+}
+#ultima-parte{
+margin-bottom: 20px;
+}
+
+#paypal-proyfin-modal{
+    display: none;
+    z-index: 50;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    margin-top: 50%;
+    position: absolute;
+    font-family: sans-serif;
+}
+#paypal-valuacion-modal{
+    display: none;
+    z-index: 50;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    margin-top: 50%;
+    position: absolute;
+    font-family: sans-serif;
+}
+#paypal-estudio-modal{
+    display: none;
+    z-index: 50;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    margin-top: 50%;
+    position: absolute;
+    font-family: sans-serif;
+}
+#paypal-gob-modal{
+    display: none;
+    z-index: 50;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    margin-top: 70%;
+    position: absolute;
+    font-family: sans-serif;
+}
+#paypal-org-modal{
+    display: none;
+    z-index: 50;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    margin-top: 50%;
+    position: absolute;
+    font-family: sans-serif;
+}
+#paypal-tablero-modal{
+    display: none;
+    z-index: 50;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    margin-top: 60%;
+    position: absolute;
+    font-family: sans-serif;
+}
+#paypal-plan-modal{
+    display: none;
+    z-index: 50;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    margin-top: 60%;
+    position: absolute;
+    font-family: sans-serif;
+}
+#paypal-cfo-modal{
+    display: none;
+    z-index: 50;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    margin-top: 50%;
+    position: absolute;
+    font-family: sans-serif;
+}
+#paypal-asesoria-modal{
+    display: none;
+    z-index: 50;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    margin-top: 70%;
+    position: absolute;
+    font-family: sans-serif;
+}
+@media only screen and (max-width:768px){
+    .precio img{
+        width:8%;
+    }
+    .menu{
+        display: none;
+    }
+    .contenido{
+        margin-top:110px;
+    }
+}
+@media screen and (min-device-width:991px){
+    #logo-menu{
+        display: none;
+    } 
+}
+@media screen and (max-device-width:991px){
+    #logo{
+        display: none;
+    } 
+}

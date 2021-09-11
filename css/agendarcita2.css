@@ -1,0 +1,372 @@
+@font-face {
+    font-family: caviardreams;
+    src: url('/webaantik/Font/CaviarDreams.ttf');
+}
+body{
+padding:0;
+margin:0;
+}
+.navbar-nav,
+.ml-auto {
+flex:0.6;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
+}
+.nav-item{
+    margin-top: 20px;
+    width:150px;
+    text-align: center;
+}
+.nav-item a{
+    display:inline;
+    
+}
+.nav-link{
+    color: #000;
+    padding-top: 25px;
+    font-family: caviardreams !important;
+    font-weight: bold;
+    font-size: 1.00rem;
+    
+    }
+#calendario{
+    margin: auto;
+    padding:0 !important;
+    
+}
+
+#elegirservicios{
+    width: 100%;
+    border-radius: 5px;
+    border:thick;
+    background-color:#dddddd;
+}
+#contenedor{
+    width:770px;
+    margin: auto;
+}
+#logo{
+    margin: 0 !important;
+}
+.titulo{
+    color:#002959;
+    font-family: caviardreams;
+    font-size: 3rem;
+    margin: 35px 0 35px 0;
+    font-weight:bolder;
+}
+p{
+    font-family: Bahnschrift;
+}
+.quienes-somos-texto{
+    margin: 30px 0 30px 0;
+    padding:15px 0 15px 0;
+    font-size:24px;
+}
+
+#redessociales{
+height:100%;
+display:flex;
+justify-content:space-between;
+margin-left: 10px;
+padding-bottom: 20px;
+
+}
+#redessociales div{
+    margin:0 5px;
+}
+
+footer{
+    background-color:#eeebeb;
+
+}
+footer img{
+    width: 100px;
+    margin-left: 47%;
+}
+footer h2{
+    text-align: center;
+    color:#b3b3b3;
+}
+#primerlogo{
+    display:none;
+}
+.contenedor-redes-sociales{
+    display:none;
+}
+
+.finanzasempresariales{
+  position: relative;
+  text-align: center;
+}
+.item{
+    margin: 0 50px 18px 30px;
+    padding:0 50px 25px 35px;
+    font-size: 1.5rem;
+    color:#6d6c6c;
+    
+}
+.item > h3{
+    text-align:center;
+}
+#clientes{
+    align-items: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #002959;
+}
+.carousel-control-prev{
+justify-content: left;
+} 
+.carousel-control-next{
+justify-content:flex-end;
+}
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #002959;
+  }
+
+
+.quienes-somos{
+    margin: 0 50px 0 50px;
+    padding:0 30px 0 30px;
+    border-top: 3px solid #00CFB4;
+    text-align: center;
+}
+
+.nuestros-servicios{
+   
+    margin: 50px 50px 80px 50px;
+    padding:0 30px 0 30px;
+    border-top: 3px solid #00CFB4;
+    text-align: center;
+}
+
+.nuestros-clientes{
+    margin: 0 50px 0 50px;
+    padding:0 30px 0 30px;
+    border-top: 3px solid #00CFB4;
+    text-align: center;
+}
+#agendarsesion{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#agendarsesion button{
+    background-color:white;
+    font-size: 1.8rem;
+    border-radius: 1px;
+    color:#002959;
+    border: 3px solid;
+    border-color: #002959;
+    padding:5px;
+}
+#agendarsesion button:hover{
+    background-color:#00CFB4;
+    color:white !important;
+} 
+
+#redessociales div{
+    margin:0 10px;
+    font-size: 30px;
+}
+#modal-registrar{
+    display: none;
+    z-index: 20;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    position: absolute;
+    font-family: sans-serif;}
+#boton-registrar{
+    margin:0 20px 0 20px;
+}
+#registro{
+ background-color:#00CFB4;
+}
+#login{
+ background-color:#002959;
+ padding-left: 15px;
+ margin-left: 15px;
+}
+.botones-opciones-registro{
+    margin: 5px 0 10px 0;
+}
+.btn-solicitar button{
+    font-family:Bahnschrift;
+    border:none;
+    width:30%;
+    
+    background-color:rgb(170, 169, 169); 
+    align-items: center; 
+    
+    border-radius: 15px;
+    font-size: 1.3rem;
+    color: #002959;
+    font-weight: bolder;
+}
+#diasdelasemana{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    margin: 0;
+   text-align: center;
+   
+}
+#diasdelasemana div{   
+    width:100px;
+    padding:10px;
+}
+.day{
+flex-direction: column;
+display: flex;
+width:100px;
+height: 50px;
+padding:10px;
+justify-content: space-between;
+text-align: center;
+margin: 5px;
+cursor:pointer
+}
+.current-day{
+background-color: blueviolet;
+}
+.day:hover{
+    background-color: aquamarine;
+}
+#calendar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#newEventModal, #deleteEventModal {
+    display: none;
+    z-index: 20;
+    padding: 25px;
+    background-color: #e8f4fa;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top:auto;
+    left: calc(50% - 175px);
+    position: absolute;
+    font-family: sans-serif;
+  }
+#modalBackDrop {
+    display: none;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100vw;
+    height:300vh;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+  }
+  #horasagendar{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  #horas{
+     width: 100%;
+     display: none;
+     justify-content: space-between;
+     padding:15px;
+     margin: 20px 0 20px 0;
+     
+  }
+  .borde{
+      border-radius: 25px;
+  }
+  #exampleFormControlTextarea1{
+      border-radius:10px;
+  }
+  .agendar{
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .video{
+      margin:70px 20px 0 20px;
+    
+  }
+  .container{
+      padding:0;
+  }
+  .video-fluid {
+    width: 100%;
+    height: auto;
+  }
+  #bienvenidoaantik{
+      margin-top: 25px;
+      padding-top: 15px;
+      text-align: center;
+      font-size: 2rem;
+      font-family: caviardreams;
+      color: rgb(119, 118, 118);
+      text-emphasis:initial;
+  }
+  #imagenbienvenido{
+    margin-top: 50px;
+  }
+  #imagenbienvenido img{
+      align-items: center;
+      margin-top: 10px;
+  }
+  .contacto-info{
+      display: flex;
+      width: 100%;
+      font-size: 1.3rem;
+      margin: 15px 0 15px 0;
+  }
+  .contacto-info img{
+      width: 7%;
+      margin: 0 10px 10px 0;
+  }
+  .titulo-agendar{
+      text-align: center;
+      margin: 15px 0 70px 0;
+      font-size: 1.5rem;
+  }
+  #enviar{
+      margin-top: 15px;
+      display:flex;
+      flex-direction:row-reverse;
+  }
+  #regsesion{
+    background-color:#002959;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 7px
+}
+#regsesion:hover{
+    background-color:steelblue;
+   
+    
+}

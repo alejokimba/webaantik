@@ -1,0 +1,176 @@
+@font-face {
+    font-family:caviardreams;
+    src: url('/Font/CaviarDreams.ttf');
+}
+.navbar-nav,
+.ml-auto {
+flex:0.6;
+margin: auto !important;
+display: flex;
+}
+.nav-item{
+    
+    padding-top: 6px;
+    font-family:caviardreams;
+    font-size:1.2em;
+}
+.nav-item a{
+    color: black;
+    
+}
+#navbarSupportedContent{
+    font-size: 1rem;
+}
+#logo{
+    display:block;
+    width:20%;
+    align-items:center;
+}
+body{
+    margin: 0;
+
+}
+#redessociales div{
+    margin:0 12px;
+    font-size: 30px;
+}
+#redessociales{
+    height:1vh;
+    display:flex;
+    justify-content:space-between;
+    margin:0 0 45px 20px;
+    
+    }
+.row.salto{
+    margin-bottom: 50px;
+}
+.texto-servicios{
+    display:inline;
+    width: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.pie{
+    width: 100%;
+    display:block;
+    background-color:#eeebeb;
+    align-items: center;
+    padding:0;
+    color: #b3b3b3;
+}
+.pie h2{
+    text-align: center;
+}
+
+.seccion{
+margin-top: 130px;
+color:#024591f8;
+font-family: Bahnschrift;
+font-weight: bolder;
+text-align: center;
+
+}
+
+.titulo{
+    font-size: 40px;
+    margin:40px 0 50px 0;
+    color: #002959;
+    border-top: 4px solid #00CFB4;
+    font-family: caviardeams;
+
+}
+.titulo-texto{
+    margin-top: 30px;
+    font-family:Bahnschrift;
+}
+.col-sm{
+    margin: 10px;
+}
+.col-sm img{
+    margin-bottom: 15px;
+    border-radius: 30px;
+    width:70%; 
+    height: 30vh;
+
+}
+.flip-card{
+    background-color:transparent;
+    width: 100%;
+    height: 35vh;
+    transform-style:flat;
+    transition: all 0.5s ease;
+    /* border: 1px solid #f1f1f1; */
+    align-items: center;
+    text-align: center;
+    }
+    .flip-card-inner{
+    position: relative;
+    height: 40vh;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    
+    }
+    .negocio{
+        margin: 50px 0 0 0;
+        align-items: center;
+        width: 100%;
+    }
+    #plan-negocio{
+        margin: auto;
+        background-color:transparent;
+        width: 100%;
+        
+    }
+    .flip-card-front{
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    }
+    .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    
+    }
+    
+      
+    .flip-card-back{
+    
+    border-radius: 30px;
+    position: absolute;
+    width: 100%;
+    color:white;
+    transform: rotateY(180deg);
+    font-size: 1.2rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-image: url("../Imagenes/fondo2.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    }
+    .contenedor{
+        width:100%;
+        height: 30vh;
+    }
+    .servicios-texto{
+        margin: auto;
+        width:auto;
+        text-align: center;
+        padding-top: 25px;
+        /* position: absolute; */
+    }
+    .btn-servicios{
+        margin-top: 20%;
+        display: inline-block;
+    }
+    
+    @media only screen and (min-width: 600px) {
+       .servicios-texto{
+           font-size: .5rem;
+       }
+       .flip-card-back{
+           width: 70%;
+       }
+      }

@@ -1,0 +1,175 @@
+@font-face {
+    font-family: caviardreams;
+    src: url('/Font/CaviarDreams.ttf');
+}
+
+body{
+padding:0;
+margin:0;
+}
+
+.navbar-nav,
+.ml-auto {
+flex:0.6;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
+}
+.nav-item{
+padding-top: 30px;
+font-family: caviardreams;
+}
+
+#calendario{
+    margin: auto;
+    padding:0 !important;
+    
+}
+#elegirservicios{
+    width: 100%;
+    border-radius: 5px;
+    border:thick;
+    background-color:#dddddd;
+}
+
+.titulo{
+    align-items: center;
+}
+#contenedor{
+    width:770px;
+    margin: auto;
+}
+#diasdelasemana{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    margin: 0;
+   text-align: center;
+   
+}
+#diasdelasemana div{   
+    width:100px;
+    padding:10px;
+}
+.day{
+flex-direction: column;
+display: flex;
+width:100px;
+height: 50px;
+padding:10px;
+justify-content: space-between;
+text-align: center;
+margin: 5px;
+cursor:pointer
+}
+.current-day{
+background-color: blueviolet;
+}
+.day:hover{
+    background-color: aquamarine;
+}
+#calendar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#newEventModal, #deleteEventModal {
+    display: none;
+    z-index: 20;
+    padding: 25px;
+    background-color: #e8f4fa;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top:auto;
+    left: calc(50% - 175px);
+    position: absolute;
+    font-family: sans-serif;
+  }
+#modalBackDrop {
+    display: none;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100vw;
+    height:300vh;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+  }
+  #horasagendar{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  #horas{
+     width: 100%;
+     display: none;
+     justify-content: space-between;
+     padding:15px;
+     margin: 20px 0 20px 0;
+     
+  }
+  .borde{
+      border-radius: 25px;
+  }
+  #exampleFormControlTextarea1{
+      border-radius:10px;
+  }
+  .agendar{
+    width: 70%;
+    margin-top: 50px;
+  }
+  .video{
+      margin:70px 20px 0 20px;
+    
+  }
+  .container{
+      padding:0;
+  }
+  .video-fluid {
+    width: 100%;
+    height: auto;
+  }
+  #bienvenidoaantik{
+      margin-top: 25px;
+      padding-top: 15px;
+      text-align: center;
+      font-size: 2rem;
+      font-family: caviardreams;
+      color: rgb(119, 118, 118);
+      text-emphasis:initial;
+  }
+  #imagenbienvenido{
+    margin-top: 50px;
+  }
+  #imagenbienvenido img{
+      align-items: center;
+      margin-top: 10px;
+  }
+  .contacto-info{
+      display: flex;
+      width: 100%;
+      font-size: 1.3rem;
+      margin: 15px 0 15px 0;
+  }
+  .contacto-info img{
+      width: 7%;
+      margin: 0 10px 10px 0;
+  }
+  .titulo-agendar{
+      text-align: center;
+      margin: 15px 0 70px 0;
+      font-size: 1.5rem;
+  }
+  #enviar{
+      margin-top: 15px;
+      display:flex;
+      flex-direction:row-reverse;
+  }
+  
+  
+  
+  

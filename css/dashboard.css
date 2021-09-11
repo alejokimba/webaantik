@@ -1,0 +1,43 @@
+@font-face {
+    font-family: caviardreams;
+    src: url(/Font/CaviarDreams.ttf);
+}
+.navbar-nav,
+.ml-auto {
+flex:0.6;
+margin: auto !important;
+display:flex;
+justify-content: space-between;
+}
+ul li{
+    padding: 10px 120px 0 0;
+    font-family: caviardreams;
+    font-size: 1rem;
+    
+    width: 100%;
+}
+.nav-item a{
+    color: black;
+}
+.titulo-texto{
+    font-size: 40px;
+    margin:40px 0 50px 0;
+    color: #002959;
+    font-family: caviardreams;
+    text-align: center;
+    font-weight:800;
+}
+.contenido{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#instrucciones{
+    color:#002959;
+    font-size: 1.7rem;
+    font-family: Bahnschrift;
+}
+.frame{
+    margin-left: 10%;
+    height: 20vh;
+
+}
