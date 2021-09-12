@@ -257,7 +257,7 @@ session_start();
                             <div class="form-group">
                                 <label for="fecha">Horario Elegido</label>
                                 
-                                <input type="text" name="fecha" id="fecha" class="form-control" value="" readonly>
+                                <input type="text" name="date" id="fecha" class="form-control" value="" readonly>
                             </div>
                             
                            

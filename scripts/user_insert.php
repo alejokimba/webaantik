@@ -15,6 +15,9 @@ $password = 'Worksql123'; //To be completed if you have set a password to root
 $database = 'aantik_webpage'; //To be completed to connect to a database. The database must exist.
 $port = 3306; //Default must be NULL to use default port
 $mysqli = new mysqli('aantik.mysql.database.azure.com', $user_db, $password, $database, $port);
+$con=mysqli_init(); 
+mysqli_ssl_set($con, NULL, NULL, 'BaltimoreCyberTrustRoot.crt.pem', NULL, NULL); 
+mysqli_real_connect($con, "aantik.mysql.database.azure.com", "Aantik@aantik", $password, $database, 3306);
 
 if ($mysqli->connect_error) {
     die('Connect Error (' . $mysqli->connect_errno . ') '
