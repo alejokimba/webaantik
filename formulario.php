@@ -68,7 +68,7 @@
                        </div>
                    </div>  
                    <div id="boton-registrar">
-                      <div class="container" id="cerrar-sesion">
+                      <!-- <div class="container" id="cerrar-sesion">
                         <section>
                           <h5>Bienvenido <?php
                           include_once 'scripts/user.php';
@@ -79,7 +79,7 @@
                           echo $user->getNombre();?></h5>
                           <button type="button" class="btn btn-primary"><a href="logout.php">Cerrar sesión</a></button>
                         </section>
-                      </div>
+                      </div> -->
                        
                        <div id="modal-registrar">
                            <div class="creditos">
