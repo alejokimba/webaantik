@@ -55,7 +55,7 @@
                         <li class="nav-item"><a class="nav-link" href="../dashboard.php">Vista Aantik rápida al mercado</a></li>
                         <?php
                         if(isset($_SESSION['user'])){
-                            echo "<li class='nav-item'><a class='nav-link' href='../formulario.html'>Formulario</a></li>";
+                            echo "<li class='nav-item'><a class='nav-link' href='../formulario.php'>Formulario</a></li>";
                         }else{
                             
                         }

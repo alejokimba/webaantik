@@ -68,19 +68,18 @@
                        </div>
                    </div>  
                    <div id="boton-registrar">
-                   <div class="container" id="cerrar-sesion">
-                            <section>
-                                <h5>Bienvenido <?php
-                                include_once 'scripts/user.php';
-                            
-                           
-                                $user=new User();
-                                $user->setUser($_SESSION['user']);
-                                echo $user->getNombre();?></h5>
-                                <button type="button" class="btn btn-primary"><a href="logout.php">Cerrar sesión</a></button>
-                            </section>
-                           
-                        </div>
+                      <div class="container" id="cerrar-sesion">
+                        <section>
+                          <h5>Bienvenido <?php
+                          include_once 'scripts/user.php';
+                      
+                      
+                          $user=new User();
+                          $user->setUser($_SESSION['user']);
+                          echo $user->getNombre();?></h5>
+                          <button type="button" class="btn btn-primary"><a href="logout.php">Cerrar sesión</a></button>
+                        </section>
+                      </div>
                        
                        <div id="modal-registrar">
                            <div class="creditos">
@@ -177,19 +176,19 @@
         </div>
         
         <div id="menu">
-            <div class="row">
-                <div class="col-sm">
-                    <ul>
-                        <li><a  href="#" id="personafisicamenu">Persona f&iacute;sica</a></li>
-                        
-                    </ul>
-                </div>
-                <div class="col-sm">
-                    <ul>
-                        <li><a href="#" id="personamoralmenu">Persona moral</a></li>
-                    </ul>
-                </div>
-            </div>
+          <div class="row">
+              <div class="col-sm">
+                  <ul>
+                      <li><a  href="#" id="personafisicamenu">Persona f&iacute;sica</a></li>
+                      
+                  </ul>
+              </div>
+              <div class="col-sm">
+                  <ul>
+                      <li><a href="#" id="personamoralmenu">Persona moral</a></li>
+                  </ul>
+              </div>
+          </div>
         </div>
       </div>
 
@@ -246,7 +245,7 @@
             </div>
           </div> 
           
-          <!-- <div class="tab"><h2>
+          <div class="tab"><h2>
             ¿Cuentas con la siguiente documentaci&oacute;n?
           </h2>
             <p>Curriculum de la empresa o negocio, as&iacute; como del principal accionista y/o persona f&iacute;sica.</p>
@@ -391,7 +390,7 @@
                 </label>
               </div>
             </div>
-          </div>-->
+          </div>
       
           <div class="tab"><h2>De las garantias o referencias inmobiliarias</h2>
             <div class="archivosgarantias" >
@@ -469,10 +468,10 @@
           </div>
           <!-- Circles which indicates the steps of the form: -->
           <div style="text-align:center;margin-top:40px;">
-            <!-- <span class="step"></span>
             <span class="step"></span>
             <span class="step"></span>
-            <span class="step"></span>-->
+            <span class="step"></span>
+            <span class="step"></span>
             <span class="step"></span> 
             <span class="step"></span>
           </div>
