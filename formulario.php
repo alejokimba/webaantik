@@ -51,7 +51,14 @@
                    <li class="nav-item" id="logo"><a class="nav-link" href="#"><img src="Imagenes/simboloaantik.png" alt="" style="width:60%;"></a></li>
                    <li class="nav-item"><a class="nav-link" href="Agendarcita.php">Contacto</a></li>
                    <li class="nav-item"><a class="nav-link" href="dashboard.php">Vista Aantik rápida al mercado</a></li>
-                   <li class="nav-item"><a class="nav-link" href="formulario.php">Formulario</a></li> 
+                   <?php
+                        if(isset($_SESSION['user'])){
+                            echo "<li class='nav-item'><a class='nav-link' href='../formulario.html'>Formulario</a></li>";
+                        }else{
+                            
+                        }
+                        
+                      ?> 
                   <div class="contenedor-redes-sociales">
                        <div class="redesoc">
                            <i class="fab fa-instagram"></i>
@@ -61,7 +68,19 @@
                        </div>
                    </div>  
                    <div id="boton-registrar">
-                       <span id="registrarse"><button  id="regsesion" onclick="MostrarModalRegistro()">Registrate</button></span>
+                   <div class="container" id="cerrar-sesion">
+                            <section>
+                                <h5>Bienvenido <?php
+                                include_once 'scripts/user.php';
+                            
+                           
+                                $user=new User();
+                                $user->setUser($_SESSION['user']);
+                                echo $user->getNombre();?></h5>
+                                <button type="button" class="btn btn-primary"><a href="logout.php">Cerrar sesión</a></button>
+                            </section>
+                           
+                        </div>
                        
                        <div id="modal-registrar">
                            <div class="creditos">
@@ -183,6 +202,7 @@
           </div>
           
           <!-- One "tab" for each step in the form: -->
+          <!--tab para los datos personales:-->
           <div class="tab">
             <p>
               Informaci&oacute;n personal:
@@ -226,7 +246,7 @@
             </div>
           </div> 
           
-          <div class="tab"><h2>
+          <!-- <div class="tab"><h2>
             ¿Cuentas con la siguiente documentaci&oacute;n?
           </h2>
             <p>Curriculum de la empresa o negocio, as&iacute; como del principal accionista y/o persona f&iacute;sica.</p>
@@ -371,7 +391,7 @@
                 </label>
               </div>
             </div>
-          </div>
+          </div>-->
       
           <div class="tab"><h2>De las garantias o referencias inmobiliarias</h2>
             <div class="archivosgarantias" >
@@ -439,7 +459,7 @@
             
             <p>Copias fotost&aacute;ticas legibles de los doctos. Que acrediten el domicilio particular y de negocio (telefon&iacute;a fija) con una antig&uuml;edad no mayor a 60 d&iacute;as</p>
             <p><input type="file" name="pdf_comprobante_dompf" oninput="this.className = ''"/></p>
-          </div>
+          </div> 
           
           <div style="overflow:auto;">
             <div style="float:right;">
@@ -449,11 +469,11 @@
           </div>
           <!-- Circles which indicates the steps of the form: -->
           <div style="text-align:center;margin-top:40px;">
+            <!-- <span class="step"></span>
             <span class="step"></span>
             <span class="step"></span>
-            <span class="step"></span>
-            <span class="step"></span>
-            <span class="step"></span>
+            <span class="step"></span>-->
+            <span class="step"></span> 
             <span class="step"></span>
           </div>
         </form>

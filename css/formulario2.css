@@ -1,6 +1,6 @@
 @font-face {
   font-family: caviardreams;
-  src: url('/webaantik/Font/CaviarDreams.ttf');
+  src: url('../Font/CaviarDreams.ttf');
 }
 body{
 padding:0;
