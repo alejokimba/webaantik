@@ -56,5 +56,5 @@
           with:
             app-name: 'finanzas-aantik'
             slot-name: 'production'
-            publish-profile: ${{ secrets.AzureAppService_PublishProfile_47b24ef8c35a419594e8cdb440a48afd }}
+            publish-profile: ${{ secrets.AzureAppService_PublishProfile_e3222d0385b74923b23f147ad0830d84 }}
             package: .
